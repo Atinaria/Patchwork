@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(250, 209, 216);
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: rgb(114, 55, 13);
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: aquamarine;
+}
+
+section, footer{
+    margin: 40px;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(114, 55, 13);
+    padding: 15px;
+    text-align: center;
+}
+
+h2{
+   font-size: 36px;
+   font-style: italic; 
+   text-transform: uppercase;
+   color:rgb(114, 55, 13);
+   font-weight: 600;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  nav a:hover {
+    background-color: #666;
+    color: brown; 
+    background-color: #f0f0f0; 
+    border-radius: 5px; 
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.galeria-imagens img {
+  width: 50%; 
+  height: auto; 
+  margin: 15px; 
+  border: 1px solid #ccc; 
+}
+
+.produtos-lista {
+  list-style: none; 
+  padding: 0;
+}
+
+.produtos-lista li {
+  margin-bottom: 20px;
+}
+
+.produtos-lista img {
+  width: 50%;
+  height: auto;
+  border: 1px solid #ccc; 
+}
+
+#nosso-time {
+  padding: 40px;
+  text-align: center;
+}
+
+#nosso-time .team-members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+#nosso-time .team-member {
+  text-align: center;
+}
+
+#nosso-time .team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#nosso-time .team-member h4 {
+  margin-top: 10px;
+}
+
+#nosso-time .team-member p {
+  margin: 5px 0;
+}
+
+
+
+         
+  
+  
